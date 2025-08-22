@@ -1,0 +1,22 @@
+{
+    "sidebar.dashboard": "ড্যাশবোর্ড",
+    "sidebar.calendar": "ক্যালেন্ডার",
+    "sidebar.finance": "ফিনান্স",
+    "sidebar.budget": "বাজেট প্ল্যানার",
+    "sidebar.subscriptions": "সাবস্ক্রিপশন",
+    "sidebar.health": "স্বাস্থ্য",
+    "sidebar.period": "পিরিয়ড ট্র্যাকার",
+    "sidebar.calculators": "ক্যালকুলেটর",
+    "sidebar.rannaghor": "রান্নাঘর",
+    "sidebar.savedRecipes": "সংরক্ষিত রেসিপি",
+    "sidebar.pantry": "প্যান্ট্রি",
+    "sidebar.members": "সদস্য",
+    "sidebar.tasks": "কাজ",
+    "sidebar.reminders": "অনুস্মারক",
+    "sidebar.documents": "নথি",
+    "sidebar.analytics": "বিশ্লেষণ",
+    "sidebar.ai": "সিঙ্গুলারিটি ∞ এআই",
+    "dashboard.welcome": "স্বাগতম,",
+    "dashboard.overview": "আজকের জন্য আপনার পরিবারের সারসংক্ষেপ এখানে।",
+    "dashboard.clearMockData": "নমুনা ডেটা মুছুন"
+}

@@ -1,0 +1,22 @@
+{
+    "sidebar.dashboard": "Dashboard",
+    "sidebar.calendar": "Calendar",
+    "sidebar.finance": "Finance",
+    "sidebar.budget": "Budget Planner",
+    "sidebar.subscriptions": "Subscriptions",
+    "sidebar.health": "Health",
+    "sidebar.period": "Period Tracker",
+    "sidebar.calculators": "Calculators",
+    "sidebar.rannaghor": "Rannaghor",
+    "sidebar.savedRecipes": "Saved Recipes",
+    "sidebar.pantry": "Pantry",
+    "sidebar.members": "Members",
+    "sidebar.tasks": "Tasks",
+    "sidebar.reminders": "Reminders",
+    "sidebar.documents": "Documents",
+    "sidebar.analytics": "Analytics",
+    "sidebar.ai": "Singularity ∞ AI",
+    "dashboard.welcome": "Welcome back,",
+    "dashboard.overview": "Here's your family overview for today.",
+    "dashboard.clearMockData": "Clear Mock Data"
+}
