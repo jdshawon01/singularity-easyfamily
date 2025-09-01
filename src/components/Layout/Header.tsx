@@ -17,6 +17,8 @@
    });
 
    return (
+   )
+ }
 -    <header className="bg-white dark:bg-dark-800 border-b border-dark-200 dark:border-dark-700 px-6 py-4">
 +    <header className="bg-white dark:bg-dark-800 border-b border-dark-200 dark:border-dark-700 px-4 lg:px-6 py-3 lg:py-4">
        <div className="flex items-center justify-between">
