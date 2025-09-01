@@ -1,0 +1,45 @@
+@@ .. @@
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
++@layer base {
++  /* Improve touch targets for mobile */
++  .touch-manipulation {
++    touch-action: manipulation;
++    -webkit-tap-highlight-color: transparent;
++  }
++  
++  /* Ensure minimum touch target size */
++  button, input, select, textarea {
++    min-height: 44px;
++  }
++  
++  @media (min-width: 1024px) {
++    button, input, select, textarea {
++      min-height: auto;
++    }
++  }
++  
++  /* Improve scrolling on mobile */
++  .overflow-y-auto {
++    -webkit-overflow-scrolling: touch;
++  }
++  
++  /* Fix viewport height on mobile */
++  .h-screen {
++    height: 100vh;
++    height: 100dvh;
++  }
++  
++  /* Improve form inputs on mobile */
++  input, select, textarea {
++    font-size: 16px;
++  }
++  
++  @media (min-width: 1024px) {
++    input, select, textarea {
++      font-size: 14px;
++    }
++  }
++}
