@@ -1,5 +1,6 @@
 @@ .. @@
    return (
+   )
 -    <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
 -      <div className="bg-dark-800 rounded-xl border border-dark-700 w-full max-w-lg">
 +    <div className="fixed inset-0 bg-black/50 flex items-end lg:items-center justify-center p-0 lg:p-4 z-50">

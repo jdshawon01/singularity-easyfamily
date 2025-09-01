@@ -1,5 +1,6 @@
 @@ .. @@
    return (
+   )
 -    <div className="p-6 space-y-6">
 +    <div className="p-4 lg:p-6 space-y-4 lg:space-y-6">
        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
@@ -35,6 +36,9 @@
 -      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 +      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-6">
          {stats.map((stat, index) => {
+           }
+           )
+           }
            const Icon = stat.icon;
            return (
              <motion.div
@@ -42,6 +46,7 @@
                initial={{ opacity: 0, y: 20 }}
                animate={{ opacity: 1, y: 0 }}
                transition={{ delay: index * 0.1 }}
+           )
 -              className="bg-dark-800 rounded-xl p-6 border border-dark-700"
 +              className="bg-dark-800 rounded-xl p-4 lg:p-6 border border-dark-700"
              >

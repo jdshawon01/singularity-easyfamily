@@ -1,5 +1,6 @@
 @@ .. @@
    return (
+   )
 -    <div className="p-6 space-y-6">
 +    <div className="p-4 lg:p-6 space-y-4 lg:space-y-6">
        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
@@ -10,6 +11,8 @@
 +          <p className="text-sm lg:text-base text-dark-500 dark:text-gray-400">{t('dashboard.overview')}</p>
          </div>
          {state.isInitialMockData && (
+)
+}
 -          <button onClick={() => setShowClearMockDataModal(true)} className="flex items-center gap-2 text-sm text-red-500 bg-red-500/10 px-3 py-2 rounded-lg hover:bg-red-500/20">
 +          <button onClick={() => setShowClearMockDataModal(true)} className="flex items-center gap-2 text-xs lg:text-sm text-red-500 bg-red-500/10 px-3 py-2 rounded-lg hover:bg-red-500/20 touch-manipulation">
              <Trash2 size={14} /> {t('dashboard.clearMockData')}
@@ -40,7 +43,11 @@
            );
          })}
        </div>
+           )
        
+}
+)
+}
 -      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
 +      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
          <div className="lg:col-span-2">

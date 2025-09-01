@@ -1,5 +1,6 @@
 @@ .. @@
    return (
+   )
 -    <div className="p-6 space-y-6">
 +    <div className="p-4 lg:p-6 space-y-4 lg:space-y-6">
        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
@@ -21,6 +22,8 @@
        </div>
 
        {state.members.length === 0 ? (
+         )
+         }
 -        <div className="bg-white dark:bg-dark-800 rounded-xl border border-dark-200 dark:border-dark-700 p-12 text-center">
 +        <div className="bg-white dark:bg-dark-800 rounded-xl border border-dark-200 dark:border-dark-700 p-8 lg:p-12 text-center">
            <Users className="w-12 h-12 text-gray-400 mx-auto mb-4" />

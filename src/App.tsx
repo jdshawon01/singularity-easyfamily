@@ -1,5 +1,6 @@
 @@ .. @@
    return (
+   )
 -    <div className={`min-h-screen bg-dark-100 dark:bg-dark-900 text-dark-800 dark:text-gray-300`}>
 +    <div className={`min-h-screen bg-dark-100 dark:bg-dark-900 text-dark-800 dark:text-gray-300 overflow-hidden`}>
        <div className="flex h-screen">
